@@ -3,7 +3,7 @@
   "version": "3.38.0",
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
-    "dev:next": "next dev",
+    "dev:next": "set PORT=3001 && next dev",
     "dev": "run-p dev:*",
     "build": "npm run db:migrate && next build",
     "start": "next start",
